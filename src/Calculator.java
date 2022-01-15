@@ -16,7 +16,7 @@ public class Calculator {
             } catch (Exception e) {
                 e.printStackTrace();
             }
-            return myInf;
+            return 0;
         }
     };
     UnaryOperator<Integer> pow = x -> x * x;
