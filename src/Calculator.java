@@ -11,11 +11,7 @@ public class Calculator {
     BinaryOperator<Integer> devide = (x, y) -> {
         if (y != 0) return (x / y);
         else {
-            try {
-                throw new Exception("ОШИБКА: Деление на ноль!");
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
+            System.out.println("ОШИБКА! Деление на ноль запрещено!");
             return 0;
         }
     };
